@@ -1,0 +1,29 @@
+FUAR TAKVİMİ OTOMATİK GÜNCELLEYİCİ
+=======================================
+
+Bu dosya, TOBB Fuar Takvimi web sitesinden Excel formatındaki takvimi otomatik olarak indirir,
+dosyayı "fuar_takvimi.xlsx" olarak günceller ve yedek olarak "indirilen_takvimler" klasörüne kaydeder.
+
+NASIL KULLANILIR?
+-----------------------
+BİLGİSAYARINIZDA CHROME KURULU OLMALIDIR!
+1. Bilgisayarınızda **Python kurulu olmalıdır.**
+   - Kurulu değilse şu adresten indirin: https://www.python.org/downloads/
+   - Kurulumda "Add Python to PATH" seçeneğini işaretleyin.
+
+2. Gerekli Python kütüphanesini kurun:
+   - Komut satırında (CMD) şu komutu yazın ve Enter'a basın:
+     ```
+     pip install selenium
+     ```
+
+3. `update.py` dosyasına çift tıklayın veya komut satırında çalıştırın:
+
+4. En güncel fuar takvimi dosya içerisindeki "fuar_takvimi" adlı dosyada olacak
+
+5. Eğer chromedriver için sürüm uyuşmazlığı yaşarsanız lütfen 
+kullandığınız cihaza, işletim sistemine ve chrome sürümüne uygun 
+olanı aşağıdaki linkten indirip dosya içerisinde yer alan "chromedriver" adlı 
+dosyayı güncel dosya ile değiştirin.
+
+https://googlechromelabs.github.io/chrome-for-testing/#stable
